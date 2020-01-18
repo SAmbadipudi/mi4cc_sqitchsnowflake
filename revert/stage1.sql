@@ -1,0 +1,8 @@
+-- Revert mi4cc:stage1 from snowflake
+
+USE WAREHOUSE &warehouse;
+
+DROP TABLE DEV_SNOWFLAKE_TEST_STG_ONE;
+DROP TABLE TEST_SNOWFLAKE_DEPLOY_STG_ONE;
+
+-- XXX Add DDLs here.

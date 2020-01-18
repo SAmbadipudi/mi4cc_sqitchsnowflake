@@ -1,0 +1,8 @@
+-- Verify mi4cc:MRT on snowflake
+
+USE WAREHOUSE &warehouse;
+
+SELECT * FROM MI4CC_DEV.DEV_SNOWFLAKE_MRT WHERE FALSE;
+SELECT * FROM MI4CC_DEV.TEST_SNOWFLAKE_MRT WHERE FALSE;
+
+-- XXX Add verifications here.
