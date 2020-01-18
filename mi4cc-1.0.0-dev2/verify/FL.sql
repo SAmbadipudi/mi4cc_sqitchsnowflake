@@ -1,0 +1,8 @@
+-- Verify mi4cc:FL on snowflake
+
+USE WAREHOUSE &warehouse;
+
+SELECT * FROM MI4CC_DEV.DEV_SNOWFLAKE_FL WHERE FALSE;
+SELECT * FROM MI4CC_DEV.TEST_SNOWFLAKE_FL WHERE FALSE;
+
+-- XXX Add verifications here.
